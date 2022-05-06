@@ -51,8 +51,11 @@ chkconfig iptables off
 
 on CentOS 7.x:
 ```
-systemctl start ntpd.service
-systemctl enable ntpd.service
+systemctl start chronyd
+systemctl enable chronyd
+#systemctl start ntpd.service
+#systemctl enable ntpd.service
+
 systemctl stop firewalld
 systemctl disable firewalld
 ```
