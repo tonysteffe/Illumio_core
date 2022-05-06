@@ -25,7 +25,7 @@ There are two ways I do this. The first is "bare minimum software" which will ge
 For bare minimum:
 ```
 yum update -y
-yum install -y net-tools bzip2 ntp
+yum install -y net-tools bzip2 ntp vim
 
 for CentOS8:
 All of the above tools come with the minimal image. C8 uses chronyd (not ntp) which also will come installed.
